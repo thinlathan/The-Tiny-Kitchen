@@ -1,0 +1,91 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	margin: 0;
+	font-family: arial;
+	color: black;
+	background-color: white;
+}
+
+.topBar{
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo{
+	color: white;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#smallBar li{
+	text-align: right;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	color: grey;
+}
+
+#smallBar a:hover{
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+	.topBar{
+		background-color: pink;
+		text-align: center;
+		padding: 10px;
+		display: block;
+		justify-content: space-between;
+	}
+}
+
+.intro{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	border-color: none;
+}
+#chef{
+	width: 30%;
+	border-style: solid;
+	border-radius: 15%;
+	border-color: pink; 
+}
+
+.intro li{
+	list-style: none;
+	color: grey;
+}
+
+#introTitle{
+	font-size: 2em;
+	color: black;
+}
+
+#introBody a{
+	color: grey;
+	text-decoration: underline;
+}
+
+.intro ul{
+	padding-top: 10%;
+}
+
+footer{
+	color: grey;
+	background-color: pink;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+}

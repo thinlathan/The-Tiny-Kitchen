@@ -1,0 +1,59 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	margin: 0;
+	font-family: arial;
+	color: black;
+	background-color: white;
+}
+
+.topBar{
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo{
+	color: white;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#smallBar li{
+	text-align: right;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	color: grey;
+}
+
+#smallBar a:hover{
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+	.topBar{
+		display: block;
+	}
+}
+
+h5{
+	margin: 10%;
+	text-align: center;
+}
+
+footer{
+	color: grey;
+	background-color: pink;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+}

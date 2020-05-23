@@ -1,0 +1,69 @@
+.topBar, footer {
+  background-color: pink;
+  text-align: center; }
+
+.topBar a {
+  text-decoration: none;
+  color: black; }
+
+body {
+  margin: 0;
+  font-family: arial;
+  color: black;
+  background-color: white; }
+
+.topBar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+#logo {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold; }
+
+#smallBar li {
+  text-align: right;
+  list-style: none;
+  position: relative;
+  display: inline-block; }
+
+#smallBar a:hover {
+  color: red; }
+
+@media screen and (max-width: 800px) {
+  .topBar {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    justify-content: space-between; } }
+
+.pager {
+  bottom: 0; }
+
+#recipeGrid > div {
+  margin: 2%;
+  padding: 2%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: transparent; }
+  #recipeGrid > div img {
+    border-radius: 15%; }
+
+#recipeGrid h5, #recipeGrid .subheading {
+  font-weight: bold; }
+
+#recipeGrid #youtube a {
+  color: white; }
+
+#recipeGrid #headingOne button, #recipeGrid #headingTwo button {
+  text-align: left;
+  color: black; }
+
+footer {
+  color: grey;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 1em; }

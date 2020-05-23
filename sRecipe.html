@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Tiny Kitchen!</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="sRecipe.css">
+
+</head>
+<body>
+	<div class="topBar">
+		<header id="logo">
+			<a href="index.html">The Tiny Kitchen</a>
+		</header>
+
+		<div id="smallBar" class="align-self-end">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li> | </li>
+				<li><a href="sRecipe.html">Success Recipe</a></li>
+				<li> | </li>
+				<li><a href="iRecipe.html">Interesting Recipe</a></li>
+				<li> | </li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="recipeGrid">
+		<div id="donut" class="media col-lg-5 media col-sm-7">
+			<img src="boba.jpeg" class="mr-3" alt="..." width="20%">
+			<div class="media-body">
+				<h5 class="mt-0">Brown Sugar Boba Milk</h5>
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									Ingredient
+								</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item subheading">For tapioca pearl</li>
+									<li class="list-group-item">1 cup tapioca starch (150g)</li>
+									<li class="list-group-item">2 tablespoon tapioca starch [steaming]</li>
+									<li class="list-group-item">3/4 cup tapioca starch [kneading]</li>
+									<li class="list-group-item">3½ tablespoon brown sugar (40g) </li>
+									<li class="list-group-item">¼ cup water (52g)</li>
+									<li class="list-group-item subheading">For brown sugar milk</li>
+									<li class="list-group-item">1 cup brown sugar</li>
+									<li class="list-group-item">1 cup water </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Direction
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								NIL
+								<div class="card-body">
+									<button type="button" class="btn btn-danger" id="youtube"><a href="https://www.youtube.com/watch?v=03t89_91BHg&list=PL8sUIsQVWFW32LGA638rLLSMij6HkHw0_&index=2&t=1s" class="card-link">Youtube</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		THIS IS THE FOOTER
+	</footer>
+</body>
+</html>
